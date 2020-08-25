@@ -9,22 +9,24 @@
 }
 
 .Footer .Footer__left {
+  width: 50%;
+  height: 150px;
+}
+.Footer .Footer__left .Footer__logo {
   width: 400px;
   height: 150px;
-  background-image: url("../components/images/longLogo.png");
   background-size: cover;
 }
 
 .Footer .Footer__center {
-  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .Footer .Footer__center li {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 13px;
   color: #707070;
 }

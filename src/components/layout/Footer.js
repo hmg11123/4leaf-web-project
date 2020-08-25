@@ -1,10 +1,13 @@
 import React from "react";
+import longLogo from "../images/longLogo.png";
 
 class Footer extends React.Component {
   render() {
     return (
       <div className="Footer">
-        <div className="Footer__left"></div>
+        <div className="Footer__left">
+          <img src={longLogo} className="Footer__logo" />
+        </div>
         <div className="Footer__center">
           <ul>
             <li>4LEAF SOFTWARE</li>
