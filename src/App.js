@@ -13,11 +13,11 @@ class App extends React.Component {
         </header>
         <main>
           <div className="Content">
-            <Route exact path="/" component={Content} />
+            <Route path="/" component={Content} />
           </div>
 
           <div className="Navigation">
-            <Route exact path="/" component={Navigation} />
+            <Route path="/" component={Navigation} />
           </div>
         </main>
         <footer>
