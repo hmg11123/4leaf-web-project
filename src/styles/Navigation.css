@@ -5,3 +5,8 @@
   align-items: flex-end;
   width: 100%;
 }
+
+.nav-circle {
+  color: #efc15a;
+  margin-top: 15px;
+}

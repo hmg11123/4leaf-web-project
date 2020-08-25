@@ -7,27 +7,27 @@ class Navigation extends React.Component {
     return (
       <div className="navs">
         <Link className="navs__siginIn nav" to="signIn">
-          <FiberManualRecordIcon />
+          <FiberManualRecordIcon className="nav-circle" />
         </Link>
 
         <Link className="navs__signUp nav" to="signUp">
-          <FiberManualRecordIcon />
+          <FiberManualRecordIcon className="nav-circle" />
         </Link>
 
         <Link className="navs__info nav" to="info">
-          <FiberManualRecordIcon />
+          <FiberManualRecordIcon className="nav-circle" />
         </Link>
 
         <Link className="navs__price nav" to="price">
-          <FiberManualRecordIcon />
+          <FiberManualRecordIcon className="nav-circle" />
         </Link>
 
         <Link className="navs__request nav" to="request">
-          <FiberManualRecordIcon />
+          <FiberManualRecordIcon className="nav-circle" />
         </Link>
 
         <Link className="navs__ask nav" to="ask">
-          <FiberManualRecordIcon />
+          <FiberManualRecordIcon className="nav-circle" />
         </Link>
       </div>
     );
