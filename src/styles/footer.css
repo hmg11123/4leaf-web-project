@@ -9,7 +9,7 @@
 .Footer .Footer__left {
   width: 650px;
   height: 180px;
-  background-image: url("../components/images/longLoge.png");
+  background-image: url('../components/images/longLogo.png');
   background-size: cover;
 }
 
@@ -25,7 +25,7 @@
 .Footer .Footer__right {
   width: 180px;
   height: 180px;
-  background-image: url("../components/images/footerRight.png");
+  background-image: url('../components/images/footerRight.png');
   background-size: cover;
 
   border-left: 1px solid #ffffff;
