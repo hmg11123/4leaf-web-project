@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../images/longLogo.png";
 import { HashRouter as Router, Link } from 'react-router-dom';
 
 class Header extends React.Component {
@@ -7,7 +8,7 @@ class Header extends React.Component {
             <div className="Header">
                 <Router>
                     <Link to="/">
-                        <div className="Header__logo"></div>
+                        <img src={logo} className="Header__logo" />
                     </Link>
                 </Router>
 
@@ -25,6 +26,9 @@ class Header extends React.Component {
                     </li>
                     <li>
                         <input type="button" value="의뢰하기" className="h-btn" />
+                    </li>
+                    <li>
+                        <input type="button" value="가격안내" className="h-btn" />
                     </li>
                     <li>
                         <input type="button" value="문의하기" className="h-btn" />
