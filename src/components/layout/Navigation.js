@@ -6,14 +6,6 @@ class Navigation extends React.Component {
   render() {
     return (
       <div className="navs">
-        <Link className="navs__siginIn nav" to="signIn">
-          <FiberManualRecordIcon className="nav-circle" />
-        </Link>
-
-        <Link className="navs__signUp nav" to="signUp">
-          <FiberManualRecordIcon className="nav-circle" />
-        </Link>
-
         <Link className="navs__info nav" to="info">
           <FiberManualRecordIcon className="nav-circle" />
         </Link>

@@ -4,6 +4,7 @@
 
   align-items: flex-end;
   width: 100%;
+  position: fixed;
 }
 
 .nav-circle {
