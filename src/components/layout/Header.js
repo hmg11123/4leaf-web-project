@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../images/longLoge.png";
 import { HashRouter as Router, Link } from 'react-router-dom';
 
 class Header extends React.Component {
@@ -8,7 +7,7 @@ class Header extends React.Component {
             <div className="Header">
                 <Router>
                     <Link to="/">
-                        <img src={logo} className="logo" />
+                        <div className="Header__logo"></div>
                     </Link>
                 </Router>
 
