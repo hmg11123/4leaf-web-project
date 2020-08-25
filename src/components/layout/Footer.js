@@ -14,7 +14,6 @@ class Footer extends React.Component {
             <li>Copyright ⓒ 2020 All rights reserved. By 4LEAF SOFTWARE</li>
           </ul>
         </div>
-        <div className="Footer__right"></div>
       </div>
     );
   }

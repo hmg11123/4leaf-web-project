@@ -3,13 +3,15 @@
   flex-direction: row;
   border-top: 1px solid #ffffff;
   width: 100%;
-  justify-content: space-between;
+  height: 150px;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .Footer .Footer__left {
-  width: 650px;
-  height: 180px;
-  background-image: url('../components/images/longLogo.png');
+  width: 400px;
+  height: 150px;
+  background-image: url("../components/images/longLogo.png");
   background-size: cover;
 }
 
@@ -18,15 +20,11 @@
 }
 
 .Footer .Footer__center li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 10px;
-  font-size: 17px;
-}
-
-.Footer .Footer__right {
-  width: 180px;
-  height: 180px;
-  background-image: url('../components/images/footerRight.png');
-  background-size: cover;
-
-  border-left: 1px solid #ffffff;
+  font-size: 15px;
+  color: #707070;
 }
