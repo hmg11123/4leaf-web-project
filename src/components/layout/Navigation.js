@@ -7,7 +7,7 @@ function Navigation() {
   return (
     <div className="nav">
       <Link className="" to="">
-        <FiberManualRecordIcon />
+        <FiberManualRecordIcon style={{ color: green[500] }} fontSize="large" />
       </Link>
       <Link className="" to="">
         <FiberManualRecordIcon />
