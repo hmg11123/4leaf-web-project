@@ -1,4 +1,32 @@
 .Footer {
   display: flex;
   flex-direction: row;
+  border-top: 1px solid #ffffff;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Footer .Footer__left {
+  width: 650px;
+  height: 180px;
+  background-image: url("../components/images/longLoge.png");
+  background-size: cover;
+}
+
+.Footer .Footer__center {
+  margin-top: 10px;
+}
+
+.Footer .Footer__center li {
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.Footer .Footer__right {
+  width: 180px;
+  height: 180px;
+  background-image: url("../components/images/footerRight.png");
+  background-size: cover;
+
+  border-left: 1px solid #ffffff;
 }
