@@ -1,6 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import { Header, Footer, Content, Navigation } from "./components/layout";
+import { Header, Footer, Content } from "./components/layout";
 
 class App extends React.Component {
   render() {
@@ -14,10 +14,6 @@ class App extends React.Component {
         <main>
           <div className="Content">
             <Route path="/" component={Content} />
-          </div>
-
-          <div className="Navigation">
-            <Route path="/" component={Navigation} />
           </div>
         </main>
         <footer>
